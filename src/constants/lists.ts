@@ -1,6 +1,6 @@
 // used to mark unsupported tokens, these are hosted lists of unsupported tokens
 
-const PANCAKES_LIST = 'https://gateway.pinata.cloud/ipfs/QmdKy1K5TMzSHncLzUXUJdvKi1tHRmJocDRfmCXxW5mshS'
+const PANCAKES_LIST = 'https://raw.githubusercontent.com/Farmermachine/list/main/list.json'
 
 export const UNSUPPORTED_LIST_URLS: string[] = [PANCAKES_LIST]
 

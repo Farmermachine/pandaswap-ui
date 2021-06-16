@@ -73,18 +73,6 @@ const TitleText = styled.div`
 	margin-top: -1rem;
 	margin-left: 1rem;
 `
-const TitleSubText = styled.div`
-	width: fit-content;
-	white-space: nowrap;
-	color: ${({ theme }) => theme.mediaWidth.upToExtraSmall`
-    display: none;
-  `};
-	font-family: 'Reem Kufi', sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 0.5rem;
-	letter-spacing: 0.03rem;
-`
 
 const AccountElement = styled.div<{ active: boolean }>`
 	display: flex;

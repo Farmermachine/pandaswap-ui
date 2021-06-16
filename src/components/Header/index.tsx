@@ -198,7 +198,7 @@ export default function Header() {
 						<TestnetWrapper>
 							<StyledTradeLink
 								style={{
-									background: `linear-gradient(128.17deg, #337855 -14.78%, #4ab684 110.05%)`,
+									background: `linear-gradient(128.17deg, #000000 -14.78%, #ffd200 110.05%)`,
 									color: 'white'
 								}}
 								target="_blank"

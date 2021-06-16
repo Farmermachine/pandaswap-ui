@@ -175,7 +175,7 @@ export default function Header() {
 				<HeaderElement>
 					<Title href=".">
 						<PandaIcon>
-							<img src={Logo} alt="logo" height="50px" width="59px" />
+							<img src={Logo} alt="logo" height="80px" width="55px" />
 						</PandaIcon>
 						<TitleText>
 							e-SCOBAR Swap
@@ -202,9 +202,9 @@ export default function Header() {
 									color: 'white'
 								}}
 								target="_blank"
-								href="e-SCOBAR.finance"
+								href="https://e-scobar.finance/"
 							>
-								Farms
+								Website
 							</StyledTradeLink>
 						</TestnetWrapper>
 					</HeaderElement>

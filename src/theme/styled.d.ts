@@ -6,12 +6,18 @@ export interface Colors {
   white: Color
   black: Color
 
+  // gradientes
+  grd1: Color
+  grd2: Color
+  grd3: Color
+
   // text
   text1: Color
   text2: Color
   text3: Color
   text4: Color
   text5: Color
+  text6: Color
 
   // backgrounds / greys
   bg1: Color
@@ -19,6 +25,8 @@ export interface Colors {
   bg3: Color
   bg4: Color
   bg5: Color
+
+  bgi: string
 
   modalBG: Color
   advancedBG: Color
@@ -40,11 +48,9 @@ export interface Colors {
   // other
   red1: Color
   red2: Color
-  red3: Color
   green1: Color
   yellow1: Color
   yellow2: Color
-  blue1: Color
 }
 
 export interface Grids {

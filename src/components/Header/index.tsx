@@ -15,7 +15,7 @@ import Menu from '../Menu'
 
 import { RowBetween } from '../Row'
 import Web3Status from '../Web3Status'
-import Logo from '../../assets/images/pnda-logo.png'
+import Logo from '../../assets/images/escobar-h.png'
 import '../../assets/fonts.css'
 
 const HeaderFrame = styled.div`
@@ -190,8 +190,7 @@ export default function Header() {
 							<img src={Logo} alt="logo" height="50px" width="59px" />
 						</PandaIcon>
 						<TitleText>
-							PandaSwap
-							<TitleSubText>by Bao.Finance</TitleSubText>
+							e-SCOBAR Swap
 						</TitleText>
 					</Title>
 				</HeaderElement>
@@ -215,7 +214,7 @@ export default function Header() {
 									color: 'white'
 								}}
 								target="_blank"
-								href="https://farms.pandaswap.xyz/"
+								href="e-SCOBAR.finance"
 							>
 								Farms
 							</StyledTradeLink>

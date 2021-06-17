@@ -9,5 +9,9 @@ export const DEFAULT_TOKEN_LIST_URL: string[] = [
   PANCAKES_LIST // need to load unsupported tokens as well
 ]
 
+export const DEFAULT_LIST_OF_LISTS: string[] = [
+  PANCAKES_LIST // need to load unsupported tokens as well
+]
+
 // default lists to be 'active' aka searched across
 export const DEFAULT_ACTIVE_LIST_URLS: string[] = []

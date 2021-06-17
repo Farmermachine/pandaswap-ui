@@ -5,7 +5,7 @@ const PANCAKES_LIST = 'https://raw.githubusercontent.com/Farmermachine/list/main
 export const UNSUPPORTED_LIST_URLS: string[] = [PANCAKES_LIST]
 
 // lower index == higher priority for token import
-export const DEFAULT_TOKEN_LIST_URL: string[] = [
+export const DEFAULT_TOKEN_LIST_URL: any[] = [
   PANCAKES_LIST // need to load unsupported tokens as well
 ]
 

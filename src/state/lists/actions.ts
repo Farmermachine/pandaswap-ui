@@ -18,6 +18,8 @@ export const removeList = createAction<string>('lists/removeList')
 export const enableList = createAction<string>('lists/enableList')
 export const disableList = createAction<string>('lists/disableList')
 
+export const selectList = createAction<string>('lists/selectList')
+
 // versioning
 export const acceptListUpdate = createAction<string>('lists/acceptListUpdate')
 export const rejectVersionUpdate = createAction<Version>('lists/rejectVersionUpdate')
